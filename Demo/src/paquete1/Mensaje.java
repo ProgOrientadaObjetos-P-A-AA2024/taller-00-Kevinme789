@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package paquete1;
+import paquete4.Palabra;
 
 /**
  *
