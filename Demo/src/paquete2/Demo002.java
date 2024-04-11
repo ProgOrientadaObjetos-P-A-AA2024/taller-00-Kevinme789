@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package paquete2;
+
 import java.util.Scanner;
 import paquete1.Mensaje;
 import paquete3.Informacion;
@@ -25,18 +26,17 @@ public class Demo002 {
         System.out.println("Ingrese un numero: ");
         num = sc.nextInt();
         String cadena = String.format("%s con %d\n",
-                Mensaje.obtenerMensaje(),Informacion.obtenerHabitantes());
-        if (num <=5 && num >=1){
-        System.out.printf(cadena);
-        } else{
-        cadena = cadena.toUpperCase();
-        System.out.printf(cadena);
+                Mensaje.obtenerMensaje(), Informacion.obtenerHabitantes());
+        if (num <= 5 && num >= 1) {
+            System.out.printf(cadena);
+        } else {
+            cadena = cadena.toUpperCase();
+            System.out.printf(cadena);
         }
         // usar printf;
-        
-        
+
         // Si ingresa 1 2 3 4 5 se presentara la cadena original de lo contrario
         // se presentara en mayuscula
     }
-    
+
 }
