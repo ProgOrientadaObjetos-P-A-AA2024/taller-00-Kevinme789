@@ -27,6 +27,10 @@ public class Demo002 {
         num = sc.nextInt();
         String cadena = String.format("%s con %d\n",
                 Mensaje.obtenerMensaje(), Informacion.obtenerHabitantes());
+        // Si el numero ingresado tiene un valor entre el 1 y el 5 imprimira
+        // el valor que almacene la variable 'cadena' caso contrario imprimiremos
+        // el valor de 'cadena' en mayusculas con la ayuda de la funcion 
+        // toUpperCase().
         if (num <= 5 && num >= 1) {
             System.out.printf(cadena);
         } else {
